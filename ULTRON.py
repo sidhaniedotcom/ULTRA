@@ -35,7 +35,7 @@ def banner():
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     #print('=============SON OF GOD==============')
-    print(f'   Version: 2.0 | Author: SIDHANIE{n}\n')
+    print(f'   Author: SIDHANIE | Telegram: https//t.me/termuxsidhanie{n}\n')
 
 def clr():
     if os.name == 'nt':
@@ -50,12 +50,6 @@ while True:
     print(lg+'[2] Filter Banned Accounts'+n)
     print(lg+'[3] Add  Accounts'+n)
     print(lg+'[4] exit'+n)
-    print(lg+'[5] join group/chanel coming soon'+n)
-    print(lg+'[6] set profile coming soon'+n)
-    print(lg+'[7] scam tag'+n)
-    print(lg+'[8] Bulk Message Sender coming soon'+n)
-    print(lg+'[9] Report Spam A User coming soon'+n)
-    print(lg+'[10] Send DM'+n)
     a = int(input('\nEnter Your Choice: '))
     if a == 3:
         new_accs = []
@@ -70,7 +64,7 @@ while True:
             clr()
             print(f'\n{gr} [*] Logging in from new accounts\n')
             for number in new_accs:
-                c = TelegramClient(f'sessions/{number}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+                c = TelegramClient(f'sessions/{number}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
                 c.start(number)
                 print(f'{ye}[+] 𝐋𝐨𝐠𝐢𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮L')
                 c.disconnect()
@@ -93,7 +87,7 @@ while True:
         else:
             for account in accounts:
                 phone = str(account[0])
-                client = TelegramClient(f'sessions/{phone}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+                client = TelegramClient(f'sessions/{phone}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
                 client.connect()
                 if not client.is_user_authorized():
                     try:
@@ -130,7 +124,7 @@ while True:
             clr()
             print(f'\n{lg} [*] Logging in from new accounts\n')
             for number in new_accs:
-                c = TelegramClient(f'sessions/{number}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+                c = TelegramClient(f'sessions/{number}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
                 c.start(number)
                 print(f'{lg}[+] Login successful')
                 c.disconnect()
@@ -153,7 +147,7 @@ while True:
         else:
             for account in accounts:
                 phone = str(account[0])
-                client = TelegramClient(f'sessions/{phone}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+                client = TelegramClient(f'sessions/{phone}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
                 client.connect()
                 if not client.is_user_authorized():
                     try:
@@ -220,7 +214,7 @@ while True:
         for a in accounts:
             phn = a[0]
             print(f'Checking {lg}{phn}')
-            clnt = TelegramClient(f'sessions/{phn}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+            clnt = TelegramClient(f'sessions/{phn}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             clnt.connect()
             banned = []
             if not clnt.is_user_authorized():
@@ -307,7 +301,7 @@ while True:
         approx_members_count = 0
         for acc in to_use:
             stop = index + 60
-            c = TelegramClient(f'sessions/{acc[0]}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+            c = TelegramClient(f'sessions/{acc[0]}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             print(f' User: {cy}{acc[0]}{lg} -- {cy}Starting session... ')
             c.start(acc[0])
             acc_name = c.get_me().first_name
@@ -435,7 +429,7 @@ while True:
         for a in accounts:
             phn = a[0]
             print(f'Checking {lg}{phn}')
-            clnt = TelegramClient(f'sessions/{phn}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+            clnt = TelegramClient(f'sessions/{phn}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             clnt.connect()
             banned = []
             if not clnt.is_user_authorized():
@@ -479,7 +473,7 @@ while True:
         index = 0
         for acc in to_use:
             stop = index + 60
-            c = TelegramClient(f'sessions/{acc[0]}', 3910389 , '86f861352f0ab76a251866059a6adbd6')
+            c = TelegramClient(f'sessions/{acc[0]}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             print(f'User: {cy}{acc[0]}{lg} -- {cy}Starting session... ')
             c.start(acc[0])
             acc_name = c.get_me().first_name
@@ -514,7 +508,7 @@ while True:
         for a in accounts:
             phn = a[0]
             print(f'Checking {lg}{phn}')
-            clnt = TelegramClient(f'sessions/{phn}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+            clnt = TelegramClient(f'sessions/{phn}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             clnt.connect()
             banned = []
             if not clnt.is_user_authorized():
@@ -621,7 +615,7 @@ while True:
         for a in accounts:
             phn = a[0]
             print(f'Checking {lg}{phn}')
-            clnt = TelegramClient(f'sessions/{phn}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+            clnt = TelegramClient(f'sessions/{phn}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             clnt.connect()
             banned = []
             if not clnt.is_user_authorized():
@@ -664,7 +658,7 @@ while True:
         index = 0
         for acc in to_use:
             stop = index + 60
-            c = TelegramClient(f'sessions/{acc[0]}', 3910389 , '86f861352f0ab76a251866059a6adbd6')
+            c = TelegramClient(f'sessions/{acc[0]}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             print(f'User: {cy}{acc[0]}{lg} -- {cy}Starting session... ')
             c.start(acc[0])
             acc_name = c.get_me().first_name
@@ -697,7 +691,7 @@ while True:
         for a in accounts:
             phn = a[0]
             print(f'Checking {lg}{phn}')
-            clnt = TelegramClient(f'sessions/{phn}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+            clnt = TelegramClient(f'sessions/{phn}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             clnt.connect()
             banned = []
             if not clnt.is_user_authorized():
@@ -734,7 +728,7 @@ while True:
         index = 0
         for acc in to_use:
             stop = index + 60
-            c = TelegramClient(f'sessions/{acc[0]}', 3910389 , '86f861352f0ab76a251866059a6adbd6')
+            c = TelegramClient(f'sessions/{acc[0]}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             print(f'User: {cy}{acc[0]}{lg} -- {cy}Starting session... ')
             c.start(acc[0])
             acc_name = c.get_me().first_name
@@ -782,7 +776,7 @@ while True:
         index = 0
         for acc in to_use:
             stop = index + 60
-            c = TelegramClient(f'sessions/{acc[0]}', 3910389 , '86f861352f0ab76a251866059a6adbd6')
+            c = TelegramClient(f'sessions/{acc[0]}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             print(f'User: {cy}{acc[0]}{lg} -- {cy}Starting session... ')
             c.start(acc[0])
             acc_name = c.get_me().first_name
@@ -828,7 +822,7 @@ while True:
         index = 0
         for acc in to_use:
             stop = index + 60
-            c = TelegramClient(f'sessions/{acc[0]}', 3910389 , '86f861352f0ab76a251866059a6adbd6')
+            c = TelegramClient(f'sessions/{acc[0]}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             print(f'User: {cy}{acc[0]}{lg} -- {cy}Starting session... ')
             c.start(acc[0])
             acc_name = c.get_me().first_name
@@ -860,7 +854,7 @@ while True:
         for a in accounts:
             phn = a[0]
             print(f'Checking {lg}{phn}')
-            clnt = TelegramClient(f'sessions/{phn}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+            clnt = TelegramClient(f'sessions/{phn}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             clnt.connect()
             banned = []
             if not clnt.is_user_authorized():
@@ -904,7 +898,7 @@ while True:
         index = 0
         for acc in to_use:
             stop = index + 60
-            c = TelegramClient(f'sessions/{acc[0]}', 3910389 , '86f861352f0ab76a251866059a6adbd6')
+            c = TelegramClient(f'sessions/{acc[0]}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
             print(f'User: {cy}{acc[0]}{lg} -- {cy}Starting session... ')
             c.start(acc[0])
             acc_name = c.get_me().first_name
