@@ -27,15 +27,15 @@ def banner():
     b = [
     
 
-   ' ░█─░█ ░█─── ▀▀█▀▀ ░█▀▀█ ░█▀▀▀█ ░█▄─░█  ',
-   ' ░█─░█ ░█─── ─░█── ░█▄▄▀ ░█──░█ ░█░█░█  ',
-   ' ─▀▄▄▀ ░█▄▄█ ─░█── ░█─░█ ░█▄▄▄█ ░█──▀█ ',
+   ' ▀▀█▀▀ ░█▀▀█ ░█▀▀▀█ ░█▄─░█  ',
+   ' ─░█── ░█▄▄▀ ░█──░█ ░█░█░█  ',
+   ' ─░█── ░█─░█ ░█▄▄▄█ ░█──▀█ ',
 
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     #print('=============SON OF GOD==============')
-    print(f'   Version: 2.0 | Author: ULTRON{n}\n')
+    print(f'   Version: 2.0 | Author: SIDHANIE{n}\n')
 
 def clr():
     if os.name == 'nt':
@@ -60,13 +60,13 @@ while True:
     if a == 3:
         new_accs = []
         with open('vars.txt', 'ab') as g:
-            number_to_add = int(input(f'\n{gr} [~] Enter number of accounts to add in ultron: {r}'))
+            number_to_add = int(input(f'\n{gr} [~] Enter number of accounts to add in TRON: {r}'))
             for i in range(number_to_add):
                 phone_number = str(input(f'\n{ye} [~] Enter Phone Number with country code: {r}'))
                 parsed_number = ''.join(phone_number.split())
                 pickle.dump([parsed_number], g)
                 new_accs.append(parsed_number)
-            print(f'\n{cy} [i] Saved all accounts in ULTRON')
+            print(f'\n{cy} [i] Saved all accounts in TRON')
             clr()
             print(f'\n{gr} [*] Logging in from new accounts\n')
             for number in new_accs:
@@ -74,7 +74,7 @@ while True:
                 c.start(number)
                 print(f'{ye}[+] 𝐋𝐨𝐠𝐢𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮L')
                 c.disconnect()
-            input(f'\n Press enter to goto ultron menu...')
+            input(f'\n Press enter to goto TRON menu...')
 
         g.close()
     if a == 2:
@@ -105,7 +105,7 @@ while True:
                         banned_accs.append(account)
             if len(banned_accs) == 0:
                 print(lg+'Congrats! No banned accounts')
-                input('\nPress enter to goto ultron menu...')
+                input('\nPress enter to goto TRON menu...')
             else:
                 for m in banned_accs:
                     accounts.remove(m)
@@ -115,7 +115,7 @@ while True:
                         pickle.dump([Phone], k)
                 k.close()
                 print(lg+'[i] All banned accounts removed'+n)
-                input('\nPress enter to goto ultron menu...')
+                input('\nPress enter to goto TRON menu...')
     a = int(input('\nEnter your choice: '))
     if a == 15:
         new_accs = []
