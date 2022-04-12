@@ -33,5 +33,5 @@ python ULTRON.py
 ```
 # GO TO ADDER
 ```
-python ULTRONADDER.py
+python ULTRONADER.py
 ```
