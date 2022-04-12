@@ -1,4 +1,12 @@
-# ULTRA PACKAGE
+# RUN SCRIPT ON TERMUX
+
+
+# # SETTING YOUR FOLDER STORAGE
+1).Open File Manager On Your Phone/Device
+
+2).Create a Folder Named "ADD"
+
+# # ULTRA PACKAGE
 
 ```
 pkg update
@@ -11,27 +19,20 @@ pip install telethon
 
 pip install colorama
 
-pkg install git
+termux-setup-storage
 
-git clone https://github.com/sidhaniedotcom/ULTRA
-
-cd ULTRA
-
-ls
-```
-
-```
 pip install -r requirements.txt
+
+cd /storage/emulated/0/ADD
 ```
-cd/storage/emulated/0/app
 
 
-
-# SETUP ACCOUNT
+# # SETUP ACCOUNT
 ```
 python ULTRON.py
 ```
-# GO TO ADDER
+
+# # ADDER TO GROUP
 ```
 python ULTRONADER.py
 ```
