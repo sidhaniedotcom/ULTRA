@@ -6,6 +6,8 @@
 
 2).Create a Folder Named "ADD"
 
+3).Extract the .zip file in the ADD folder that you have created
+
 # # ULTRA PACKAGE
 
 ```
