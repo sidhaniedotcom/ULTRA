@@ -1,7 +1,7 @@
 '''
 =============SON OF GOD=====================
 REX 1.0 members adding script
-Coded by ULTRON - @thanosuser
+Coded by TRON - @termuxsidhanie
 Apologies if anything in the code is dumb :)
 Copy with credits
 ************************************************
@@ -45,14 +45,14 @@ minus = w + '[' + lg + '-' + w + ']' + rs
 def banner():
     # fancy logo
     b = [    
-   ' ░█─░█ ░█─── ▀▀█▀▀ ░█▀▀█ ░█▀▀▀█ ░█▄─░█  ',
-   ' ░█─░█ ░█─── ─░█── ░█▄▄▀ ░█──░█ ░█░█░█  ',
-   ' ─▀▄▄▀ ░█▄▄█ ─░█── ░█─░█ ░█▄▄▄█ ░█──▀█ ',
+   ' ▀▀█▀▀ ░█▀▀█ ░█▀▀▀█ ░█▄─░█  ',
+   ' ─░█── ░█▄▄▀ ░█──░█ ░█░█░█  ',
+   ' ─░█── ░█─░█ ░█▄▄▄█ ░█──▀█ ',
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{rs}')
     #print('=============SON OF GOD==============')
-    print(f'{lg}   Version: {w}2.0{lg} | Author: {w}ULTRON{rs}\n')
+    print(f'{lg}   Author: {w}Sidhanie{lg} | Telegram: {w}https://t.me/termuxsidhanie{rs}\n')
 
 
 # function to clear screen
@@ -76,7 +76,7 @@ print('\n' + info + lg + ' Checking for banned accounts...' + rs)
 for a in accounts:
     phn = a[0]
     print(f'{plus}{grey} Checking {lg}{phn}')
-    clnt = TelegramClient(f'sessions/{phn}', 8088717, '7d1e0295ee1c2628f1933e9ffd2d8b78')
+    clnt = TelegramClient(f'sessions/{phn}', 6842006, '36b82bda4cb0d9eef87eb4071777725a')
     clnt.connect()
     banned = []
     if not clnt.is_user_authorized():
@@ -167,7 +167,7 @@ adding_status = 0
 approx_members_count = 0
 for acc in to_use:
     stop = index + 60
-    c = TelegramClient(f'sessions/{acc[0]}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+    c = TelegramClient(f'sessions/{acc[0]}', 6842006 , '36b82bda4cb0d9eef87eb4071777725a')
     print(f'{plus}{grey} User: {cy}{acc[0]}{lg} -- {cy}Starting session... ')
     c.start(acc[0])
     acc_name = c.get_me().first_name
