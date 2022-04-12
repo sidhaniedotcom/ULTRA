@@ -10,6 +10,14 @@ pkg install python
 pip install telethon
 
 pip install colorama
+
+pkg install git
+
+git clone https://github.com/sidhaniedotcom/ULTRA
+
+cd ULTRA
+
+ls
 ```
 
 ```
